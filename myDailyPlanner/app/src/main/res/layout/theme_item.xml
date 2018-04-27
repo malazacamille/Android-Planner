@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:id="@+id/sm12"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sm11"
+        app:layout_constraintTop_toBottomOf="@+id/sm9" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:color_checked="#800000"
+        app:layout_constraintStart_toStartOf="@+id/chck11"
+        app:layout_constraintTop_toBottomOf="@+id/sm9" />
+
+    <ImageView
+        android:id="@+id/sm11"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sm10"
+        app:layout_constraintTop_toBottomOf="@+id/sm8" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck10"
+        app:layout_constraintTop_toBottomOf="@+id/sm8" />
+
+    <ImageView
+        android:id="@+id/sm10"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm7" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm7" />
+
+    <ImageView
+        android:id="@+id/sm9"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm9"
+        app:layout_constraintStart_toEndOf="@+id/sm8"
+        app:layout_constraintTop_toBottomOf="@+id/sm6" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck8"
+        app:layout_constraintTop_toBottomOf="@+id/sm6" />
+
+    <ImageView
+        android:id="@+id/sm8"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm8"
+        app:layout_constraintStart_toEndOf="@+id/sm7"
+        app:layout_constraintTop_toBottomOf="@+id/sm5" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck7"
+        app:layout_constraintTop_toBottomOf="@+id/sm5" />
+
+    <ImageView
+        android:id="@+id/sm7"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm4" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm4" />
+
+    <ImageView
+        android:id="@+id/sm6"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm6"
+        app:layout_constraintStart_toEndOf="@+id/sm5"
+        app:layout_constraintTop_toBottomOf="@+id/sm3" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck5"
+        app:layout_constraintTop_toBottomOf="@+id/sm3" />
+
+    <ImageView
+        android:id="@+id/sm5"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm5"
+        app:layout_constraintStart_toEndOf="@+id/sm4"
+        app:layout_constraintTop_toBottomOf="@+id/sm2" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chck4"
+        app:layout_constraintTop_toBottomOf="@+id/sm2" />
+
+    <ImageView
+        android:id="@+id/sm4"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm1" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sm1" />
+
+    <ImageView
+        android:id="@+id/sm3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm3"
+        app:layout_constraintStart_toEndOf="@+id/sm2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sm2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm2"
+        app:layout_constraintStart_toEndOf="@+id/sm1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="76dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/chck1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sm1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sm1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.milleca.mydailyplanner.SmoothCheckBox
+        android:id="@+id/chck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="76dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:color_checked="#800000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

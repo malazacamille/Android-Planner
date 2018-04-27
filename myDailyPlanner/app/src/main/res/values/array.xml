@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="category_prompt">Choose a category</string>
+
+    <string-array name="category_arrays">
+    <item>Personal Errands</item>
+    <item>Work</item>
+    <item>Health</item>
+    <item>School</item>
+    <item>Others</item>
+    </string-array>
+</resources>

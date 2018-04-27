@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ic18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic17"
+        app:layout_constraintTop_toBottomOf="@+id/ic14"
+        app:srcCompat="@drawable/ic18" />
+
+    <ImageView
+        android:id="@+id/ic17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic16"
+        app:layout_constraintTop_toBottomOf="@+id/ic13"
+        app:srcCompat="@drawable/ic17" />
+
+    <ImageView
+        android:id="@+id/ic16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic12"
+        app:srcCompat="@drawable/ic16" />
+
+    <ImageView
+        android:id="@+id/ic15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic14"
+        app:layout_constraintTop_toBottomOf="@+id/ic10"
+        app:srcCompat="@drawable/ic15" />
+
+    <ImageView
+        android:id="@+id/ic14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic13"
+        app:layout_constraintTop_toBottomOf="@+id/ic9"
+        app:srcCompat="@drawable/ic14" />
+
+    <ImageView
+        android:id="@+id/ic13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic12"
+        app:layout_constraintTop_toBottomOf="@+id/ic8"
+        app:srcCompat="@drawable/ic13" />
+
+    <ImageView
+        android:id="@+id/ic12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic11"
+        app:layout_constraintTop_toBottomOf="@+id/ic7"
+        app:srcCompat="@drawable/ic12" />
+
+    <ImageView
+        android:id="@+id/ic11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic6"
+        app:srcCompat="@drawable/ic11" />
+
+    <ImageView
+        android:id="@+id/ic10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic9"
+        app:layout_constraintTop_toBottomOf="@+id/ic5"
+        app:srcCompat="@drawable/ic10" />
+
+    <ImageView
+        android:id="@+id/ic9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic8"
+        app:layout_constraintTop_toBottomOf="@+id/ic4"
+        app:srcCompat="@drawable/ic9" />
+
+    <ImageView
+        android:id="@+id/ic8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic7"
+        app:layout_constraintTop_toBottomOf="@+id/ic3"
+        app:srcCompat="@drawable/ic8" />
+
+    <ImageView
+        android:id="@+id/ic7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic6"
+        app:layout_constraintTop_toBottomOf="@+id/ic2"
+        app:srcCompat="@drawable/ic7" />
+
+    <ImageView
+        android:id="@+id/ic6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic1"
+        app:srcCompat="@drawable/ic6" />
+
+    <ImageView
+        android:id="@+id/ic5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic5" />
+
+    <ImageView
+        android:id="@+id/ic4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic4" />
+
+    <ImageView
+        android:id="@+id/ic3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic3" />
+
+    <ImageView
+        android:id="@+id/ic1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic1" />
+
+    <ImageView
+        android:id="@+id/ic2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/ic1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic2" />
+</android.support.constraint.ConstraintLayout>
